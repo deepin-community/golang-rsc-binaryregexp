@@ -1,5 +1,20 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-rsc-binaryregexp (0.2.0-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints. + golang-rsc-binaryregexp-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 24 Nov 2022 15:26:10 +0000
+
+golang-rsc-binaryregexp (0.2.0-2) unstable; urgency=medium
+
+  * Source-only upload for migration to testing
+
+ -- Anthony Fok <foka@debian.org>  Sun, 08 Mar 2020 05:56:17 -0600
+
+golang-rsc-binaryregexp (0.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #952722)
+
+ -- Anthony Fok <foka@debian.org>  Thu, 27 Feb 2020 22:12:11 -0700
